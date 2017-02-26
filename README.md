@@ -41,6 +41,9 @@ For traits with multiple levels, each level has been created as a seperate trait
 **morphs.yaml**
   - Implants:
     - List of implants
+  - Movement Rate:
+    - Movement type: (Normal/Run)
+    - ...
   - Aptitude Maximum:
     - Aptitude: Max Value
     - ...
