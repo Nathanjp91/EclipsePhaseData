@@ -1,0 +1,22 @@
+---Aquanaut
+Aquanauts are environmentally adapted for underwater activities. They have seen a revival on exoplanets with habitable seas and oceans. Their heart rate slows while underwater, their skin includes a layer of blubber that retains heat, they store oxygen in their muscle tissue, and they do not suffer negative health effects from pressure changes. Additionally, their eyes have nictitating membranes and their corneas adjust to counter underwater refraction. Their hands and feet are webbed and they possess a transgenic swim bladder for controlling buoyancy. They can safely descend to about 200 meters depth (roughly 6 atmospheres of pressure) without suffering narcotic effects or other diving problems.
+Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration, Gills, Sonar, Swim Bladder, Temperature Tolerance (Improved Cold), Toxin Filters
+Aptitude Maximum: 30
+Durability: 40
+Wound Threshold: 8
+Advantages: +5 COO, +10 SOM, +5 to one other aptitude of the player’s choice, +10 Swimming skill
+CP Cost: 50
+Credit Cost: Expensive
+---Hulder
+The surprising number of transhumans who chose to sleeve in Titan-adapted hulder morphs encouraged designers on Profunda to develop a Titan-adapted ﬂyer. While the sturdy hulder morph is designed for nomadic herders, the ariel morph is designed by people who wish to survive by hunting. Individuals sleeved in the ariel morph can hunt and eat Titanian caribou, but they most often eat the smaller rabbit-like creatures that Profunda designers have also recently designed to live on Titan. Ariel morphs have exotic-looking heads similar to those of hulder morphs, but they also possess sleek and streamlined humanoid bodies with four limbs and a pair of bat-like wings.
+These morphs have also been used by a few daring transhumans to explore the upper cloud layers of both Saturn and Uranus.
+Implants: Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Claws, Cortical Stack, Direction Sense, Enhanced Vision, Long-Term Life Support, Low Pressure Tolerance, Oxygen Reserve, Prehensile Feet, Radiation Sense, T-Ray Emitter, Temperature Tolerance (Cryonic), Wings
+Aptitude Maximum: 30
+Durability: 30
+Wound Threshold: 6
+Advantages: Flight (Movement Rate 8/40), +5 COG, +5 REF, +5 to two other aptitudes of the player’s choice
+Disadvantages: Temperature Intolerance (Warm) trait
+Notes: Non-Mammalian Biochemistry trait
+CP Cost: 50
+Credit Cost: Expensive (minimum 50,000+)
+---END
