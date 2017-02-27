@@ -112,7 +112,6 @@ class Morph:
 
 if __name__ == '__main__':
     data = open(FILE_TO_IMPORT, 'r')
-    # import ipdb; ipdb.set_trace()
     data = data.read()
     temp = data.partition('---')
     temp = temp[2]
