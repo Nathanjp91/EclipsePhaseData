@@ -80,7 +80,7 @@ class Morph:
             elif "Notes: " in line:
                 pass  # TODO
             else:  # Description
-                self.description = line
+                self.description.append(line)
 
     def advantage_parsing(self, item):
         Apt_Check = [apt for apt in APTITUDES if apt in item]
@@ -113,6 +113,7 @@ class Morph:
 if __name__ == '__main__':
     data = open(FILE_TO_IMPORT, 'r')
     data = data.read()
+    import ipdb; ipdb.set_trace()
     temp = data.partition('---')
     temp = temp[2]
     # item2 = "This string contains COO +5
