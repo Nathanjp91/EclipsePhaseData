@@ -28,8 +28,8 @@ class Morph:
         self.write_to_file()
 
     def write_to_file(self):
-        self.description = data
         print ("Name: ", self.name)
+        print ("Description: ", self.description)
         print ("Type: ", self.Type)
         print ("Implants: ", self.Implants)
         print ("Movement: ", self.Movement)
@@ -56,18 +56,18 @@ class Morph:
                 temp = temp[2].split(',')
                 for item in temp:
                     if "trait" in item:
-                        self.Traits += item  # remove the traits that are lumped
+                        self.Traits.append(item)  # remove the traits that are lumped
                     if "Movement Rate" in item:
-                        self.Movement += item  # remove the movement rate upgrades
+                        self.Movement.append(item)  # remove the movement rate upgrades
                     self.Advantages += self.advantage_parsing(item)
             elif "Disadvantages: " in line:
                 temp = line.partition(': ')
                 temp = temp[2].split(',')
                 for item in temp:
                     if "trait" in item:
-                        self.Traits += item
+                        self.Traits.append(item)
                     elif "Movement Rate" in item:
-                        self.Movement += item
+                        self.Movement.append(item)
             elif "Credit Cost: " in line:
                 self.cost = line
             elif "CP Cost: " in line:
@@ -75,6 +75,12 @@ class Morph:
             elif "Movement Rate: " in line:
                 temp = line.partition(': ')
                 self.Movement += temp[2]
+            elif "Aptitude Maximum: " in line:
+                pass  # TODO
+            elif "Notes: " in line:
+                pass  # TODO
+            else:  # Description
+                self.description = line
 
     def advantage_parsing(self, item):
         Apt_Check = [apt for apt in APTITUDES if apt in item]
@@ -106,6 +112,7 @@ class Morph:
 
 if __name__ == '__main__':
     data = open(FILE_TO_IMPORT, 'r')
+    # import ipdb; ipdb.set_trace()
     data = data.read()
     temp = data.partition('---')
     temp = temp[2]
