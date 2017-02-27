@@ -1,16 +1,16 @@
 import io
 import re
 
-FILE_TO_IMPORT = "morph.txt"
+BIOMORPH_FILE = "biomorph.txt"
 FILE_TO_EXPORT = "morphs.yaml"
 APTITUDES = ["COG", "COO", "SOM", "SAV", "WIL", "REF", "INT"]
 
 
 class Morph:
-    def __init__(self, data):
-        self.data = io.StringIO(data)
-        self.name = self.data.readline()
-        self.Type = ""
+    def __init__(self, data,morph_type):
+        self.Data = io.StringIO(data)
+        self.Name = self.Data.readline()
+        self.Type = morph_type
         self.Implants = []
         self.Movement = []
         self.AptitudeMax = []
@@ -23,13 +23,12 @@ class Morph:
         self.CP = ""
         self.Cost = ""
         self.SpeedMod = ""
-        self.description = ""
+        self.Description = ""
         self.parse_data()
         self.write_to_file()
 
     def write_to_file(self):
-        self.description = data
-        print ("Name: ", self.name)
+        print ("Name: ", self.Name)
         print ("Type: ", self.Type)
         print ("Implants: ", self.Implants)
         print ("Movement: ", self.Movement)
@@ -39,9 +38,10 @@ class Morph:
         print ("Durability: ", self.Durability)
         print ("Wound Threshold: ", self.WoundThresh)
         print ("Advantages: ", self.Advantages)
+        print ("Descritpion: ", self.Description)
 
     def parse_data(self):
-        for line in self.data:
+        for line in self.Data:
             if "Implants: " in line:
                 self.Implants = line.split(',')
                 self.Implants[0] = self.Implants[0][9:]
@@ -54,27 +54,35 @@ class Morph:
             elif "Advantages: " in line:
                 temp = line.partition(': ')
                 temp = temp[2].split(',')
+                print (self.Name)
+                print (temp)
                 for item in temp:
                     if "trait" in item:
-                        self.Traits += item  # remove the traits that are lumped
+                        self.Traits.append(item)  # remove the traits that are lumped
                     if "Movement Rate" in item:
-                        self.Movement += item  # remove the movement rate upgrades
+                        self.Movement.append(item)  # remove the movement rate upgrades
                     self.Advantages += self.advantage_parsing(item)
             elif "Disadvantages: " in line:
                 temp = line.partition(': ')
                 temp = temp[2].split(',')
                 for item in temp:
                     if "trait" in item:
-                        self.Traits += item
+                        self.Traits.append(item)
                     elif "Movement Rate" in item:
-                        self.Movement += item
+                        self.Movement.append(item)
             elif "Credit Cost: " in line:
-                self.cost = line
+                self.Cost = line
             elif "CP Cost: " in line:
                 self.CP = line
             elif "Movement Rate: " in line:
                 temp = line.partition(': ')
                 self.Movement += temp[2]
+            elif "Aptitude Maximum: " in line:
+                pass #TODO
+            elif "Notes: " in line:
+                pass #TODO
+            else:
+                self.Description += line
 
     def advantage_parsing(self, item):
         Apt_Check = [apt for apt in APTITUDES if apt in item]
@@ -105,20 +113,13 @@ class Morph:
 
 
 if __name__ == '__main__':
-    data = open(FILE_TO_IMPORT, 'r')
+    data = open(BIOMORPH_FILE, 'r')
     data = data.read()
     temp = data.partition('---')
     temp = temp[2]
-    # item2 = "This string contains COO +5
-    # APTITUDES = ["COG","COO","SOM","SAV","WIL","REF","INT"]
-    # Apt_Check = [apt for apt in APTITUDES if apt in item2]
-    # if Apt_Check:
-    #     m = re.search('([+])([0-9]+)', item2)
-    #     print (m.group())
-
     while temp is not "":
         temp = temp.partition('---')
         if "END" not in temp[0]:
             morph_data = temp[0]
-            morph_to_save = Morph(morph_data)
+            morph_to_save = Morph(morph_data, "Biomorph")
         temp = temp[2]

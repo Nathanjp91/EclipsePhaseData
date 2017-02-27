@@ -238,7 +238,7 @@ Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
 Aptitude Maximum: 25 (20 SOM)
 Durability: 20
 Wound Threshold: 4
-Advantages: Beak/Claw Attack (1d10 DV, AP -1, use Unarmed Combat skill), Flight, +5 INT, +10 REF, +5 to one other aptitude of the player’s choice, Neo-avians count as a small target (-10 to hit in combat)
+Advantages: Beak/Claw Attack (1d10 DV AP -1 use Unarmed Combat skill), Flight, +5 INT, +10 REF, +5 to one other aptitude of the player’s choice, Neo-avians count as a small target (-10 to hit in combat)
 CP Cost: 25
 Credit Cost: Expensive
 ---Neo-Beluga
