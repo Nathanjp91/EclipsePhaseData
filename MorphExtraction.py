@@ -1,13 +1,14 @@
 import io
 import re
 
-BIOMORPH_FILE = "biomorph.txt"
+import click
+
 FILE_TO_EXPORT = "morphs.yaml"
 APTITUDES = ["COG", "COO", "SOM", "SAV", "WIL", "REF", "INT"]
 
 
 class Morph:
-    def __init__(self, data,morph_type):
+    def __init__(self, data, morph_type):
         self.Data = io.StringIO(data)
         self.Name = self.Data.readline()
         self.Type = morph_type
@@ -112,8 +113,12 @@ class Morph:
         return []
 
 
-if __name__ == '__main__':
-    data = open(BIOMORPH_FILE, 'r')
+@click.command()
+@click.option('--input-file', default='biomorph.txt', help='The file of biomorph data to parse.')
+@click.option('--output-file', default='biomorph.yaml', help='The file to write the yaml output.')
+@click.option('--morph-type', type=click.Choice(['Biomorph']), default='Biomorph', help='The morph type.')
+def main(input_file, output_file, morph_type):
+    data = open(input_file, 'r')
     data = data.read()
     temp = data.partition('---')
     temp = temp[2]
@@ -121,5 +126,9 @@ if __name__ == '__main__':
         temp = temp.partition('---')
         if "END" not in temp[0]:
             morph_data = temp[0]
-            morph_to_save = Morph(morph_data, "Biomorph")
+            morph_to_save = Morph(morph_data, morph_type)
         temp = temp[2]
+
+
+if __name__ == '__main__':
+    main()
