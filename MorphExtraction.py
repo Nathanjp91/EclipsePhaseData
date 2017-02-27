@@ -1,11 +1,13 @@
-import io, re
+import io
+import re
 
-file_to_import = "morph.txt"
-file_to_export = "morphs.yaml"
-Aptitudes = ["COG","COO","SOM","SAV","WIL","REF","INT"]
+FILE_TO_IMPORT = "morph.txt"
+FILE_TO_EXPORT = "morphs.yaml"
+APTITUDES = ["COG", "COO", "SOM", "SAV", "WIL", "REF", "INT"]
+
 
 class Morph:
-    def __init__(self,data):
+    def __init__(self, data):
         self.data = io.StringIO(data)
         self.name = self.data.readline()
         self.Type = ""
@@ -24,18 +26,20 @@ class Morph:
         self.description = ""
         self.parse_data()
         self.write_to_file()
+
     def write_to_file(self):
         self.description = data
         print ("Name: ", self.name)
         print ("Type: ", self.Type)
         print ("Implants: ", self.Implants)
         print ("Movement: ", self.Movement)
-        # print ("Aptitudes (Maximum)")
-        # for apt in Aptitudes:
+        # print ("APTITUDES (Maximum)")
+        # for apt in APTITUDES:
         #     print(apt)
-        print ("Durability: ",self.Durability)
-        print ("Wound Threshold: ",self.WoundThresh)
-        print ("Advantages: ",self.Advantages)
+        print ("Durability: ", self.Durability)
+        print ("Wound Threshold: ", self.WoundThresh)
+        print ("Advantages: ", self.Advantages)
+
     def parse_data(self):
         for line in self.data:
             if "Implants: " in line:
@@ -52,9 +56,9 @@ class Morph:
                 temp = temp[2].split(',')
                 for item in temp:
                     if "trait" in item:
-                        self.Traits += item #remove the traits that are lumped
+                        self.Traits += item  # remove the traits that are lumped
                     if "Movement Rate" in item:
-                        self.Movement += item #remove the movement rate upgrades
+                        self.Movement += item  # remove the movement rate upgrades
                     self.Advantages += self.advantage_parsing(item)
             elif "Disadvantages: " in line:
                 temp = line.partition(': ')
@@ -73,41 +77,41 @@ class Morph:
                 self.Movement += temp[2]
 
     def advantage_parsing(self, item):
-        Apt_Check = [apt for apt in Aptitudes if apt in item]
+        Apt_Check = [apt for apt in APTITUDES if apt in item]
         if Apt_Check:
-            m = re.search('([+])([0-9]+)', item) # Get the +5, +10 or +15 aptitude
+            m = re.search('([+])([0-9]+)', item)  # Get the +5, +10 or +15 aptitude
             num = m.group(2)
             return [{Apt_Check[0]: num}]
         elif "choice" in item:
             if "one" in item:
-                m = re.search('([+])([0-9]+)', item) # Get the +5, +10 or +15 aptitude
+                m = re.search('([+])([0-9]+)', item)  # Get the +5, +10 or +15 aptitude
                 num = m.group(2)
                 return [{"Choice": num}]
             elif "two" in item:
-                m = re.search('([+])([0-9]+)', item) # Get the +5, +10 or +15 aptitude
+                m = re.search('([+])([0-9]+)', item)  # Get the +5, +10 or +15 aptitude
                 num = m.group(2)
-                return [{"Choice": num},{"Choice":num}]
+                return [{"Choice": num}, {"Choice": num}]
             elif "three" in item:
-                m = re.search('([+])([0-9]+)', item) # Get the +5, +10 or +15 aptitude
+                m = re.search('([+])([0-9]+)', item)  # Get the +5, +10 or +15 aptitude
                 num = m.group(2)
-                return [{"Choice": num},{"Choice":num},{"Choice": num}]
+                return [{"Choice": num}, {"Choice": num}, {"Choice": num}]
         if "skill" in item:
-            m = re.search('([+])([0-9]+)', item) # Get the +5, +10 or +15 aptitude
+            m = re.search('([+])([0-9]+)', item)  # Get the +5, +10 or +15 aptitude
             num = m.group(2)
-            s = re.search('([0-9]+[ ])([A-Z]\w+)',item)
+            s = re.search('([0-9]+[ ])([A-Z]\w+)', item)
             skill = s.group(2)
-            return [{skill : num}]
+            return [{skill: num}]
         return []
 
 
 if __name__ == '__main__':
-    data = open(file_to_import,'r')
+    data = open(FILE_TO_IMPORT, 'r')
     data = data.read()
     temp = data.partition('---')
     temp = temp[2]
     # item2 = "This string contains COO +5
-    # Aptitudes = ["COG","COO","SOM","SAV","WIL","REF","INT"]
-    # Apt_Check = [apt for apt in Aptitudes if apt in item2]
+    # APTITUDES = ["COG","COO","SOM","SAV","WIL","REF","INT"]
+    # Apt_Check = [apt for apt in APTITUDES if apt in item2]
     # if Apt_Check:
     #     m = re.search('([+])([0-9]+)', item2)
     #     print (m.group())
