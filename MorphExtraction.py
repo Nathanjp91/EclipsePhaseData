@@ -3,7 +3,6 @@ import re
 
 import click
 
-FILE_TO_EXPORT = "morphs.yaml"
 APTITUDES = ["COG", "COO", "SOM", "SAV", "WIL", "REF", "INT"]
 
 
