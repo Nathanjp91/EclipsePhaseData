@@ -2,18 +2,6 @@ import yaml
 
 import click
 
-STAT_NAMES = {
-    'Implants',
-    'Aptitude Maximum',
-    'Durability',
-    'Wound Threshold',
-    'Advantages',
-    'Disadvantages',
-    'Notes',
-    'CP Cost',
-    'Credit Cost',
-}
-
 DESCRIPTION_FIELD = 'Description'
 
 
