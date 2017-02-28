@@ -1,0 +1,810 @@
+Aquanaut:
+    Advantages: +5 COO, +10 SOM, +5 to one other aptitude of the player’s choice,
+        +10 Swimming skill
+    Aptitude Maximum: '30'
+    CP Cost: '50'
+    Credit Cost: Expensive
+    Description: Aquanauts are environmentally adapted for underwater activities.
+        They have seen a revival on exoplanets with habitable seas and oceans. Their
+        heart rate slows while underwater, their skin includes a layer of blubber
+        that retains heat, they store oxygen in their muscle tissue, and they do not
+        suffer negative health effects from pressure changes. Additionally, their
+        eyes have nictitating membranes and their corneas adjust to counter underwater
+        refraction. Their hands and feet are webbed and they possess a transgenic
+        swim bladder for controlling buoyancy. They can safely descend to about 200
+        meters depth (roughly 6 atmospheres of pressure) without suffering narcotic
+        effects or other diving problems.
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration,
+        Gills, Sonar, Swim Bladder, Temperature Tolerance (Improved Cold), Toxin Filters
+    Wound Threshold: '8'
+Bouncer:
+    Advantages: Limber (Level 1) trait, +5 COO, +5 SOM, +5 to one aptitude of the
+        player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: Bouncers are humans genetically adapted for zero-G and microgravity
+        environments. Their legs are more limber, and their feet can grasp as well
+        as their hands.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Grip Pads, Oxygen
+        Reserve, Prehensile Feet
+    Wound Threshold: '7'
+Bruiser:
+    Advantages: +10 Intimidation skill, +15 SOM (includes Hardened Skeleton bonus),
+        +5 REF (+15 with Adrenal Booost), +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: 30 (SOM 40)
+    CP Cost: '60'
+    Credit Cost: Expensive (minimum 60,000+)
+    Description: This morph is specifically designed to be large, strong, and physically
+        intimidating. Adopted early on by some sports performers, it quickly became
+        a favorite among criminal cartels and thugs. At 2.5 meters tall, the morph
+        may have difficulty moving comfortably in all but the most open and uncrowded
+        of habitats. This morph’s “claws” extend from its knuckles and are more like
+        reinforced bone brass knuckles.
+    Disadvantages: Unattractive (Level 1) trait
+    Durability: 60 (includes Hardened Skeleton bonus)
+    Implants: Adrenal Boost, Basic Biomods, Basic Mesh Inserts, Claws, Cortical Stack,
+        Hardened Skeleton
+    Notes: Large Size trait
+    Wound Threshold: '10'
+Cloud Skate:
+    Advantages: Flight, +5 COG, +5 REF, +5 SOM, +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '55'
+    Credit Cost: Expensive (minimum 60,000+)
+    Description: Like the surya and hulder morphs, the cloud skate is another biomorph
+        that pushes the edge of what is possible. It is designed to be able to live
+        in the atmospheres of gas giants, including Jupiter. This morph is shaped
+        roughly like a tailless stingray with a pair of slender arms. The version
+        of the swim bladder used by this morph provides neutral buoyancy in dense
+        atmospheres, preventing it from sinking below a safe depth. Several small
+        outer system collectives are planning to use these morphs to colonize the
+        atmospheres of Saturn and Neptune and are also working on creating versions
+        of animals and plants that can also live in these exotic environments.Implants:Basic
+        Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical Stack, Direction
+        Sense, Enhanced Vision, High-G Adaptation, Hydrostatic Pressure Adaptation,
+        Long-Term Life Support, Oxygen Reserve, Radiation Sense, Radar, Swim Bladder,
+        T-Ray Emitter, Temperature Tolerance (Cryonic), Wings
+    Disadvantages: Temperature Intolerance (Warm) trait
+    Durability: '35'
+    Movement Rate: Winged (8/40)
+    Wound Threshold: '7'
+Crasher:
+    Advantages: Bioweave Armor (Light) (2/3), +5 COG, +10 SOM, +5 to three other aptitudes
+        of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '70'
+    Credit Cost: Expensive (Minimum 40,000+)
+    Description: An enhanced version of ruster morphs, crashers are rugged and durable
+        designs capable of weathering a range of harsh environments. They are the
+        ideal biomorph for gatecrashing assignments and are popular among first-in
+        teams. Though pricey compared to other biomorph options, many gatecrashers
+        traveling to less habitable and dangerous environments have found the investment
+        worth it.
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Circadian
+        Regulation, Clean Metabolism, Cortical Stack, Direction Sense, Eidetic Memory,
+        Enhanced Respiration, Enhanced Vision, Grip Pads, Hibernation, Medichines,
+        Oxygen Reserve, Toxin Filters, Vacuum Sealing
+    Wound Threshold: '8'
+Dvergr:
+    Advantages: +15 SOM (includes implant bonuses), +5 to one other aptitude of the
+        player’s choice
+    Aptitude Maximum: 35 (40 SOM)
+    CP Cost: '50'
+    Credit Cost: Expensive
+    Description: Dvergar (plural of dvergr) are biomorphs designed for comfortable
+        operation in high-gravity environments. They feature a reinforced skeletal
+        structure and sturdier muscle masses. They are easily identified by their
+        slightly squat, thick-necked, tough appearances.
+    Durability: 45 (includes implant bonuses)
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, High-G Adaptation
+    Wound Threshold: '9'
+END:
+    Description: ''
+Exalt:
+    Advantages: +5 COG, +5 to three other aptitudes of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '30'
+    Credit Cost: Expensive
+    Description: Exalt morphs are genetically-enhanced humans, designed to emphasize
+        specific traits. Their genetic code has been tweaked to make them healthier,
+        smarter, and more attractive. Their metabolism is modified to predispose them
+        towards staying fit and athletic for the duration of an extended lifespan.Implants:Basic
+        Biomods, Basic Mesh Inserts, Cortical Stack
+    Durability: '35'
+    Wound Threshold: '7'
+Faust:
+    Advantages: Psi Chameleon trait, Psi Defense (Level 1) trait, +10 COG, +10 WIL,
+        +5 INT, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '85'
+    Credit Cost: Expensive (minimum 100,000+)
+    Description: This morph is not a publicly known model. It was developed in secret
+        by a small group of unaffiliated async genehackers. It is only available to
+        individuals who discover a connection to this unnamed, underground async network
+        and then download the template from one of several secret mesh sites. The
+        faust is a modified menton morph. Even under the most thorough scans, it appears
+        to be nothing more than a mildly personalized version of that morph.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack,
+        Eidetic Memory, Endocrine Control, Hyper-Linguist, Math Boost
+    Wound Threshold: '7'
+Flats:
+    Aptitude Maximum: '20'
+    CP Cost: '0'
+    Credit Cost: High
+    Description: Flats are baseline unmodified humans, born with all of the natural
+        defects, hereditary diseases, and other genetic mutations that evolution so
+        lovingly applies. Flats are increasingly rare—most died off with the rest
+        of humanity during the Fall. Most new children are splicers—screened and genefixed
+        at the least—except in habitats where flats are treated as second-class citizens
+        and indentured labor.
+    Disadvantages: None (Genetic Defects trait common)
+    Durability: '30'
+    Implants: None
+    Wound Threshold: '6'
+Freeman:
+    Advantages: +5 SAV, +5 to one other aptitude of the player’s choice except WIL
+    Aptitude Maximum: '25'
+    CP Cost: '10'
+    Credit Cost: High
+    Description: Many leaders want to ensure loyalty or at least obedience from their
+        citizens, especially recently sleeved infugees. The freeman biomorph offers
+        rulers (some would say tyrants or dictators) a chance to offer citizens a
+        new life without worrying about dissidence. Based on the splicer morph, the
+        freeman is genetically modified to be more obedient, which results in lower
+        Willpower. More insidiously, freeman morphs are genetically modified with
+        a protein that makes their neurons sensitive to light. When combined with
+        an optogenetics module implant, these neurons can be activated and deactivated
+        remotely, enabling a monitoring muse or meshed overseer to control the ego’s
+        behavior. (The specific behavior affected is chosen with each optogenetics
+        module implant.)The freeman comes with a specialized monitor AGI installed
+        in a modified ghostrider module. The monitor, usually a modified fork of the
+        tyrant’s muse, watches and reports all suspicious actions taken by the primary
+        ego. The purpose of this implant is often concealed. Citizens who sleeve into
+        a freeman morph are told the implant is a security measure that helps prevent
+        infection from TITAN technology or some similar lie. The module is designed
+        to resist tampering and will report to headquarters the instant it detects
+        a hacker’s intrusion. The monitor muse can manipulate the ego’s behavior or
+        even take control of the morph via its puppet sock, but avoids doing that
+        unless absolutely necessary. Dictators do not want to reveal that their citizens
+        have spies implanted in their skulls, watching them.Surprisingly, some people
+        voluntarily sleeve into freeman morphs, preferring to hand responsibility
+        and decision-making over to other parties, such as the Sendero Luminoso Benevolent
+        Dictatorship habitat in the Neptunian Trojans.
+    Disadvantages: −5 WIL
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Monitor Module, Optogenetics
+        Module, Puppet Sock
+    Wound Threshold: '6'
+Furies:
+    Advantages: +5 COO, +5 REF, +10 SOM, +5 WIL, +5 to one aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '75'
+    Credit Cost: Expensive (minimum 40,000)
+    Description: Furies are combat morphs. These transgenic human upgrades feature
+        genetics tailored for endurance, strength, and reflexes, as well as behavioral
+        modifications for aggressiveness and cunning. To offset tendencies for unruliness
+        and macho behavior patterns, furies feature gene sequences promoting pack
+        mentalities and cooperation, and they tend to be biologically female.
+    Durability: '50'
+    Implants: Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical
+        Stack, Enhanced Vision, Neurachem (Level 1), Toxin Filters
+    Speed Modifier: +1 (neurachem)
+    Wound Threshold: '10'
+Futura:
+    Advantages: +5 COG, +5 SAV, +10 WIL, +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive (exceptionally rare; 50,000+)
+    Description: An exalt variant, futura morphs were specially crafted for the “Lost
+        generation.” Tailor-made for accelerated growth and adjusted for confidence,
+        self-reliance, and adaptability, futuras were intended to help transhumanity
+        regain its foothold. These programs proved disastrous and the line was discontinued,
+        but some models remain, viewed by some with distaste and others as collectibles
+        or exotic oddities.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Eidetic Memory, Emotional
+        Dampers
+    Wound Threshold: '7'
+Ghost:
+    Advantages: +10 COO, +5 REF, +5 SOM, +5 WIL, +5 to one aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '70'
+    Credit Cost: Expensive (minimum 40,000)
+    Description: Ghosts are partially designed for combat applications, but their
+        primary focus is stealth and infiltration. Their genetic profile encourages
+        speed, agility, and reflexes, and their minds are modified for patience and
+        problem-solving.
+    Durability: '45'
+    Implants: Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Adrenal
+        Boost, Enhanced Vision, Grip Pads
+    Wound Threshold: '9'
+Grey:
+    Advantages: +5 COG, +5 WIL, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: 30 (20 SOM)
+    CP Cost: '25'
+    Credit Cost: Expensive (minimum 30,000+)
+    Description: Originally created as part of a fad based on 20th-century images
+        of aliens, the grey morph soon became popular with eccentric scientists and
+        engineers. This morph’s slender and weak-looking body stands only 1.5 meters
+        tall, short compared to modern transhumans. Its distinctive large head and
+        eyes strike many transhumans as disturbing.
+    Disadvantages: Uncanny Valley trait
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism,
+        Cortical Stack, Eidetic Memory, Emotional Dampers, Enhanced Vision, Math Boost
+    Wound Threshold: '6'
+Hazer:
+    Advantages: +5 COO, +5 WIL, +5 to two other aptitudes of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '35'
+    Credit Cost: Expensive
+    Description: Hazers are tall, ﬁne-boned morphs, lightly muscled but heavily insulated
+        against loss of body heat. Even with all of their augmentations, hazers can’t
+        survive exposure to the frigid atmosphere of Titan—but they can handle it
+        slightly longer than other morphs. Hazers tend to be fair and slender, with
+        chiseled features. Some have features so angular or elﬁn that their beauty
+        is alien and unsettling to other human phenotypes. Striking Looks and Uncanny
+        Valley are both common morph traits.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Vision,
+        Radiation Sense, Respirocytes, Temperature Tolerance (Improved Cold)
+    Wound Threshold: '7'
+Hibernoid:
+    Advantages: +5 INT, +5 to one aptitude of the player’s choice
+    Aptitude Maximum: '25'
+    CP Cost: '25'
+    Credit Cost: Expensive
+    Description: Hibernoids are transgenic-modified humans with heavily-altered sleep
+        patterns and metabolic processes. Hibernoids have a decreased need for sleep,
+        requiring only 1-2 hours a day on average. They also have the ability to trigger
+        a form of voluntary hibernation, effectively stopping their metabolism and
+        need for oxygen. Hibernoids make excellent long-duration space travelers and
+        habtechs, but these morphs are also favored by personal aides and hypercapitalists
+        with non-stop lifestyles.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack,
+        Hibernation
+    Wound Threshold: '7'
+Hulder:
+    Advantages: +5 SOM, +10 WIL, +5 to one aptitude of player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '50'
+    Credit Cost: Expensive (Minimum 40,000+)
+    Description: Hulder are engineered for survival in the Titanian wilds. In silhouette,
+        their bodies resemble a long-legged great auk, though viewed up close, the
+        resemblance to a bird ends. Hulder have no feathers, but rather smooth, rubbery
+        charcoal or black skin covering a thick layer of nano-augmented blubber. What
+        resembles a thick bill from a distance is actually a seamless protrusion of
+        the face, packed with sensory augmentations. Hulder stand 2 meters tall and
+        weigh on average 135 kilograms. Their sensory organs, webbed feet, and ﬁngers
+        are all cybernetic.Hulder can only tolerate temperatures hospitable to baseline
+        transhumans for short periods of time. In the open, they must balance their
+        bodies’ chemical reservoirs with other hulder and caribou once per month or
+        with a chemical reserve pack. A typical band of 2–6 hulder and 10–20 caribou
+        can go about a year before having to visit a hab or a station like Huvudskär
+        to replenish chemical reserves.
+    Disadvantages: Temperature Intolerance (Warm)
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical
+        Stack, Digging Claws, Direction Sense, Enhanced Vision, Long-Term Life Support,
+        Oxygen Reserve, Radiation Sense, Swim Bladder, T-Ray Emitter, Temperature
+        Tolerance (Cryonic)
+    Wound Threshold: '8'
+Hyperbright:
+    Advantages: +15 COG, +10 INT, +5 WIL, +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: 40 (COG and INT), 30 (all others)
+    CP Cost: '70'
+    Credit Cost: Expensive (Minimum 40,000+)
+    Description: This morph is an attempt by a research team on Bright to create a
+        successor to the menton, making it the most intelligence-enhanced morph ever
+        created. Work on the hyperbright morph has been plagued with difficulties,
+        as the designers attempt to push technical limits, creating a morph that can
+        work at peak efficiency without distraction for long periods of time. In an
+        effort to create a morph that proves their design and earns some positive
+        reputation for their project, the creators took short cuts that caused the
+        morph to have several distinctive and potentially annoying quirks, including
+        an inherent need for drugs to stabilize its exotic neurochemistry. The result
+        is a morph that is instantly recognizable by the brightly colored bony crest
+        along the skull that helps cool its brain. Despite its quirks, the hyperbright
+        has gained a small following among a number of scientists and engineers, especially
+        since it has been optimized for use in the low-g environments of the outer
+        system. When created or used on Bright, this morph is usually also ﬁtted with
+        the parallel processor nanoware.
+    Disadvantage: Addiction (minor, to comfurt), Fast Metabolism, Uncanny Valley
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack,
+        Eidetic Memory, Endocrine Control, Grip Pads, Hyper-Linguist, Math Boost,
+        Mental Speed, Prehensile Feet
+    Wound Threshold: '7'
+Luna Flier:
+    Advantages: Flight (Movement Rate 8/40), +5 COG, +5 COO, +5 to two other aptitudes—player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '35'
+    Credit Cost: Expensive
+    Description: This morph is a version of the exalt morph that has been adapted
+        to fly in Earth normal air pressure as long as the gravity is 0.2 g or less.
+        Though this morph is available on other low-g worlds and habitats, it was
+        developed for and is primarily found on Luna. This morph resembles a typical
+        exalt morph, except that it is lightly built, has larger lungs, and has feathered
+        wings with a wingspan of 3 meters. The wings come out of the back torso and
+        leave the morph’s hands and wrists unhindered. The wings may also be folded
+        behind the body.
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack,
+        Enhanced Vision, Wings
+    Wound Threshold: '6'
+Martian Alpiner:
+    Advantages: +5 SOM, +10 Climbing skill
+    Aptitude Maximum: '25'
+    CP Cost: '30'
+    Credit Cost: Expensive
+    Description: Alpiners were a relatively common biomorph design on early frontier
+        Mars, when temperatures and atmospheric pressure had not yet risen to present
+        levels. Now they are found predominantly in the city of Olympus, where environmental
+        conditions will always be incredibly harsh. Avid rock climbers and outdoor
+        types also favor this morph, and in recent years it has enjoyed an unusual
+        vogue among chic urbanites going for a rough-and-ready look without sleeving
+        in the more de classe ruster morph.
+    Disadvantages: Fast Metabolism trait, Planned Obsolescence trait
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Direction Sense,
+        Grip Pads, Low Pressure Tolerance, Oxygen Reserve, Respirocytes, Temperature
+        Tolerance (Improved Cold)
+    Wound Threshold: '8'
+Menton:
+    Advantages: +10 COG, +5 INT, +5 WIL, +5 to one aptitude of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: Mentons are genetically modified to increase cognitive abilities,
+        particularly learning ability, creativity, attentiveness, and memory. Rumors
+        exist of super-enhanced mentons with more extreme intelligence mods, but brain-hacking
+        is notoriously difficult, and many attempts to redesign mental faculties result
+        in impaired functioning, instability, or insanity.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Eidetic Memory, Hyper
+        Linguist, Math Boost
+    Wound Threshold: '7'
+Neanderthal:
+    Advantages: +5 COG, +5 INT, +10 SOM, +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: This morph is based on fossilized Neanderthal DNA, uplifted and enhanced
+        to transhuman equivalence. Neanderthal morphs look like muscular humans with
+        a heavy bone structure, distinctively long skulls, heavy brow ridges, and
+        weak chins. Pale complexions and red hair are common features.
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '8'
+Neo-Avian:
+    Advantages: Beak/Claw Attack (1d10 DV AP -1 use Unarmed Combat skill), Flight,
+        +5 INT, +10 REF, +5 to one other aptitude of the player’s choice, Neo-avians
+        count as a small target (-10 to hit in combat)
+    Aptitude Maximum: 25 (20 SOM)
+    CP Cost: '25'
+    Credit Cost: Expensive
+    Description: Neo-avians include ravens, crows, and gray parrots uplifted to human-level
+        intelligence. Their physical sizes are much larger than their non-uplifted
+        cousins (to the size of a human child), with larger heads for their increased
+        brain size. Numerous transgenic modifications have been made to their wings,
+        allowing them to retain limited flight capabilities at 1 g, but giving them
+        a more bat-like physiology so they can bend and fold better, and adding primitive
+        digits for basic tool manipulation. Their toes are also more articulated and
+        now accompanied with an opposable thumb. Neo-avians have adapted well to microgravity
+        environments, and are favored for their small size and reduced resource use.
+    Durability: '20'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '4'
+Neo-Beluga:
+    Advantages: +5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice,
+        +40 Swimming skill, Ramming Attack (1d10 DV)
+    Aptitude Maximum: '25'
+    CP Cost: '45'
+    Credit Cost: Expensive (minimum 40,000)
+    Description: Neo-belugas are the smallest and most numerous of the surviving whale
+        uplifts, ranging 5.5 meters in length on average. They are white-skinned with
+        no dorsal ridge, toothed, and have the distinction of being the only whale
+        that can swim backwards.
+    Disadvantages: Neo-belugas lack a sense of smell and count as a large target in
+        combat (+10 to hit)
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced
+        Hearing, Oxygen Reserve
+    Movement Rate: Swim (16/40)
+    Wound Threshold: '7'
+Neo-Dolphin:
+    Advantages: +5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice,
+        +40 Swimming skill, Ramming Attack (1d10 DV, use Unarmed Combat skill)
+    Aptitude Maximum: '25'
+    CP Cost: '40'
+    Credit Cost: Expensive (minimum 35,000)
+    Description: The uplifted versions of various dolphin species are very similar
+        to baseline dolphins physiologically. Thanks to the oxygen reserve implant,
+        neo-dolphins can stay underwater for longer (Cerean dolphins have gills installed,
+        as the subcrustal sea has no breathable atmosphere above it). Common neo-dolphin
+        germlines lack hands or other limbs, though cybernetic arms or even bioware
+        enhancements are not uncommon.Neo-dolphin morphs are very rare, since there
+        are few habitats that can support them, and they are almost never found apart
+        from aquatic environments.
+    Disadvantages: Neo-dolphins lack a sense of smell.
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced
+        Hearing, Oxygen Reserve
+    Movement Rate: Swim (16/48)
+    Wound Threshold: '6'
+Neo-Hominid:
+    Advantages: +5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice,
+        +10 Climbing skill
+    Aptitude Maximum: '25'
+    CP Cost: '25'
+    Credit Cost: Expensive
+    Description: Neo-hominids are uplifted chimpanzees, gorillas, and orangutans.
+        All feature enhanced intelligence and bipedal frames.
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Prehensile Feet
+    Wound Threshold: '6'
+Neo-Hominid (Gorilla):
+    Advantages: +5 INT, +10 SOM, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '35'
+    Credit Cost: Expensive (minimum 30,000)
+    Description: To highlight the differences in neo-hominid species, apply the following
+        stats for neo-gorillas. The neo-hominid entry above applies for neo-chimpanzees,
+        neo-bonobos, and neo-orangutans.
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Prehensile Feet
+    Wound Threshold: '8'
+Neo-Orca:
+    Advantages: +5 COO, +5 INT, +10 SOM, +5 to one other aptitude of the player’s
+        choice, +40 Swimming skill, +20 Unarmed Combat skill, Bite Attack (2d10 DV,
+        use Unarmed Combat skill)
+    Aptitude Maximum: '30'
+    CP Cost: '60'
+    Credit Cost: Expensive (minimum 50,000)
+    Description: Though colloquially referred to as killer whales, orcas are actually
+        members of the dolphin family. The average neo-orca length is 7 meters for
+        males, 6 meters for females. Males also have larger and more triangular pectoral
+        fins.
+    Disadvantages: Neo-orcas lack a sense of smell and count as a large target in
+        combat (+10 to hit)
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced
+        Hearing, Oxygen Reserve
+    Movement Rate: Swim (16/60)
+    Wound Threshold: '8'
+Neo-Pig:
+    Advantages: +5 SOM, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: '25'
+    CP Cost: '20'
+    Credit Cost: High
+    Description: Uplifted pig morphs are bipedal and feature transgenic hands, feet,
+        and vocal systems. They tend to be slightly shorter than the average transhuman
+        but much stockier. Males grow tusks from their lower jaws.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '7'
+Neo-Porpoise:
+    Advantages: +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice, +50
+        Swimming skill, Ramming Attack (1d10 DV),
+    Aptitude Maximum: '25'
+    CP Cost: '35'
+    Credit Cost: Expensive (minimum 30,000)
+    Description: Neo-porpoises are smaller but very similar to neo-dolphins and similarly
+        are much like their baseline relatives. They average 2.5 meters in length.
+    Disadvantages: Neo-porpoises lack a sense of smell.
+    Durability: '25'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced
+        Hearing, Oxygen Reserve
+    Movement Rate: Swim (16/56)
+    Wound Threshold: '5'
+Neo-Whale:
+    Advantages: +5 COO, +5 INT, +5 SOM, +5 to one other aptitude of the player’s choice,
+        +40 Swimming skill, Ramming Attack (2d10 DV, use Unarmed Combat skill), Bite
+        Attack (4d10 DV, sperm whales only, use Unarmed Combat skill)
+    Aptitude Maximum: '30'
+    CP Cost: '75'
+    Credit Cost: Expensive (exceptionally rare; minimum 75,000)
+    Description: Less than several hundred neo-whale morphs exist, and the majority
+        remain occupied by their original egos. They are primarily found in Ceres
+        and Atlantica. They are derived from humpback, blue, and sperm whale genetic
+        stock. Humpbacks and blues are baleen whales and require large amounts of
+        krill to survive. Sperm whales are toothed, feeding on fish and squid.
+    Disadvantages: Neo-whales lack a sense of smell and count as a very large target
+        in combat (+30 to hit)
+    Durability: '100'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced
+        Hearing, Oxygen Reserve
+    Movement Rate: Swim (16/40)
+    Wound Threshold: '20'
+Neotenics:
+    Advantages: +5 COO, +5 INT, +5 REF, +5 to one aptitude of the player’s choice;
+        neotenics count as a small target (–10 modifier to hit in combat)
+    Aptitude Maximum: 20 (SOM), 30 (all else)
+    CP Cost: '25'
+    Credit Cost: Expensive
+    Description: Neotenics are transhumans modified to retain a child-like form. They
+        are smaller, more agile, inquisitive, and less resource-depleting, making
+        them ideal for habitat living and spacecraft. Some people find neotenic sleeves
+        distasteful, especially when employed in certain media and sex work capacities.
+    Disadvantages: Social Stigma (Neotenic) trait
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '6'
+Nomad:
+    Advantages: +5 REF, +5 SOM, +5 to one other aptitude of the player’s choice (includes
+        penalties for Efficient Digestion)
+    Aptitude Maximum: '30'
+    CP Cost: '30'
+    Credit Cost: Expensive
+    Description: While synthmorphs are the ﬁrst choice for many gatecrashers, morph
+        designers have made great headway in creating biomorphs suitable for hazardous
+        exoplanets. The nomad biomorph is optimized for operating in desert environments
+        and takes many of its traits from the camel, prompting some observers to mistake
+        the nomad for a pod morph. With an elongated face designed like a camel to
+        trap water vapor in the nostrils as the morph exhales, nomads are clearly
+        off-putting to many bioconservatives. Some models also have camel feet for
+        better travels in sandy dune environments. Nomads are actually quite hefty
+        under normal circumstances, as they are designed to be able to carry large
+        amounts of fat tissue. Their fat tissue can be moved around their body to
+        adapt to high or low temperatures. When nomads are in the ﬁeld, however, they
+        can become quite skinny, as they survive for months on their fat tissue alone.
+    Disadvantages: Uncanny Valley trait
+    Durability: 45 (includes Respirocytes bonus)
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Efficient Digestion,
+        Enhanced Respiration, Fat Storage, Medichines, Respirocytes, Temperature Tolerance
+        (Improved Cold), Toxin Filters.
+    Wound Threshold: '9'
+Observer:
+    Advantages: +10 INT, +5 COG, +5 REF, +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: Observers have their minds enhanced to bolster intuitive, analytical,
+        and investigative capabilities. They are favored by detectives and others
+        with a mind towards details, puzzles, and thin-slicing.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '7'
+Octomorph:
+    Aptitude Maximum: '30'
+    CP Cost: '50'
+    Credit Cost: Expensive (minimum 30,000+)
+    Description: 'These uplifted octopi sleeves have proven quite useful in zero-gravity
+        environments. They retain eight arms, their chameleon ability to change skin
+        color, ink sacs, and a sharp beak. They also have increased brain mass and
+        longevity, can breathe both air and water, and lack a skeletal structure so
+        they can squeeze through tight spaces. Octomorphs typically crawl along in
+        zero-gravity using their arm suckers and expelling air for propulsion and
+        can even walk on two of their arms in low gravity. Their eyes have been enhanced
+        with color vision, provide a 360-degree field of vision, and they rotationally
+        adjust to keep the slit-shaped pupil aligned with “up.” A transgenic vocal
+        system allows them to speak.Advantages: 8 Arms, Beak Attack (1d10 DV, -1 AP,
+        use Unarmed Combat skill), Ink Attack (blinding, use Exotic Ranged: Ink Attack
+        skill), Limber (Level 2) trait, 360-degree Vision, +30 Swimming skill, +10
+        Climbing skill, +5 COO, +5 INT, +5 to one other aptitude of the player’s choice'
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Chameleon Skin
+    Wound Threshold: '6'
+Olympian:
+    Advantages: +5 COO, +5 REF, +10 SOM, +5 to one other aptitude of the player’s
+        choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: Olympians are human upgrades with improved athletic capabilities
+        like endurance, eye-hand coordination, and cardio-vascular functions. Olympians
+        are common among athletes, dancers, freerunners, and soldiers.
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '8'
+Remade:
+    Advantages: +10 COG, +5 SAV, +10 SOM, +5 to two other aptitudes of the player’s
+        choice
+    Aptitude Maximum: '40'
+    CP Cost: '60'
+    Credit Cost: Expensive (minimum 40,000+)
+    Description: 'The remade are completely redesigned humans: humans 2.0. Their cardiovascular
+        systems are stronger, the digestive tract has been sanitized and restructured
+        to eliminate flaws, and they have otherwise been optimized for good health,
+        smarts, and longevity with numerous transgenic mods. The remade are popular
+        with the ultimates faction. The remade look close to human, but are different
+        in very noticeable and sometimes eerie ways: taller, lack of hair, slightly
+        larger craniums, wider eyes, smaller noses, smaller teeth, and elongated digits.'
+    Disadvantages: Uncanny Valley trait
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Clean Metabolism,
+        Cortical Stack, Eidetic Memory, Enhanced Respiration, Temperature Tolerance,
+        Toxin Filters
+    Wound Threshold: '8'
+Ring Flyer:
+    Advantages: Bioweave Armor (Light, 2/3), Limber (Level 1) trait, +5 COG, +5 COO,
+        +5 REF, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '70'
+    Credit Cost: Expensive (Minimum 40,000+)
+    Description: Designed for use in Saturn’s magnetic ﬁeld, this exotic biomorph
+        is also occasionally used around Jupiter, Uranus, and Neptune, as well as
+        having limited use in the Jovian Trojans and Main Belt. Easily recognizable
+        with its slender limbs and round-backed torso, this morph can survive indefinitely
+        in space, acquiring oxygen, water, and trace organic materials from the particles
+        of Saturn’s rings. It can also maneuver around any planet with a magnetic
+        ﬁeld, ﬂying swiftly and easily in any of these environments.
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical
+        Stack, Enhanced Respiration, Enhanced Vision, Gas Jet System, Grip Pads, Hibernation,
+        Long-Term Life Support, Medichines, Oxygen Reserve, Plasma Sail Implant, Prehensile
+        Feet, Radiation Tolerance, Temperature Tolerance (Cryonic), Vacuum Sealing
+    Wound Threshold: '6'
+Ruster:
+    Advantages: +5 SOM, +5 to one aptitude of the player’s choice
+    Aptitude Maximum: '25'
+    CP Cost: '25'
+    Credit Cost: Expensive
+    Description: Adapted for survival with minimum gear in the not-yet-terraformed
+        Martian environment, these transgenic morphs feature insulated skin for more
+        effective thermoregulation and respiratory system improvements to require
+        less oxygen and filter carbon dioxide, among other mods.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration,
+        Temperature Tolerance
+    Wound Threshold: '7'
+Salamander:
+    Advantages: Limber (Level 1) trait, Coronal Adaptation trait (solar metabolism
+        only), +5 COO, +5 INT, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: Salamanders are a type of biomorph popular with Solarians. They share
+        some of the physiological traits of suryas, but are unable to survive unprotected
+        in the corona (requiring a solar survival suit, like other biomorphs), and
+        are instead bio-engineered to survive in the protected vacuum of coronal habitats.
+        Their skin is thick, hairless, vaguely reptilian, and mostly black in color,
+        with gold and orange body patterning. Like suryas, salamanders communicate
+        either via wireless transmissions or by “sunspotting”—using their chromatophores
+        to shift light and dark patterns on their skin to form patterns easily comprehensible
+        to other coronal morphs. Salamanders have a wiry, streamlined, swept-back
+        sort of look, a combination of fey and monkey-like. Their heads are also somewhat
+        reptilian, with reflective eyes, no nose, and no mouth.Their feet are prehensile,
+        usable just like hands. They lack reproductive organs and capabilities and
+        feature cyberware gas jets on their chest and back for maneuvering in zero
+        g. Many Solarians who normally inhabit suryas will sleeve into salamanders
+        if they need to use humanoid tools or interact with non-Solarians.
+    Durability: '60'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Chameleon Skin, Enhanced
+        Vision, Gas Jet System, Medichines, Oxygen Reserve, Prehensile Feet, Vacuum
+        Sealing
+    Wound Threshold: '12'
+Selkie:
+    Aptitude Maximum: '30'
+    CP Cost: '55'
+    Credit Cost: Expensive
+    Description: 'Selkies look like a human-seal hybrid, and in fact their genetics
+        are aquanaut with heavy splices of seal traits. Their arms are standard human-shaped,
+        but their legs are fused into a pair of hind ﬂippers for powerful swimming.
+        On land, they can stand but have difficulty moving, as they must ﬂop, roll,
+        or hop like a seal. They are adapted for the lack of air, deep cold, and crushing
+        pressure of subcrustal seas.Advantages: +5 COO, +10 SOM, +5 to one other aptitude
+        of the player’s choice, +10 Swimming skill Disadvantages: Movement Rate of
+        1/4 on land'
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Echolocation, Enhanced
+        Hearing, Enhanced Vision, Enhanced Respiration, Gills, Hydrostatic Pressure
+        Adaptation, Swim Bladder, Temperature Tolerance (Improved Cold), Toxin Filters
+    Wound Threshold: '8'
+Slyph:
+    Advantages: Striking Looks (Level 1) trait, +5 COO, +10 SAV, +5 to one other aptitude
+        of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: Sylph morphs are tailor-made for media icons, elite socialites, XP
+        stars, models, and narcissists. Sylph gene sequences are specifically designed
+        for distinctive good looks. Ethereal and elfin features are common, with slim
+        and lithe bodies. Their metabolism has also been sanitized to eliminate unpleasant
+        bodily odors and their pheromones adjusted for universal appeal.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Clean Metabolism, Cortical Stack,
+        Enhanced Pheromones
+    Wound Threshold: '7'
+Splicer:
+    Advantages: +5 to one aptitude of the player’s choice
+    Aptitude Maximum: '25'
+    CP Cost: '10'
+    Credit Cost: High
+    Description: Splicers are genefixed humans. Their genome has been cleansed of
+        hereditary diseases and optimized for looks and health, but has not otherwise
+        been substantially upgraded. Splicers make up the majority of transhumanity.
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack
+    Wound Threshold: '6'
+Surya:
+    Advantages: +10 COO, +5 REF, +5 SOM, +10 Free Fall skill, Coronal Adaptation trait
+    Aptitude Maximum: '30'
+    CP Cost: '50'
+    Credit Cost: Expensive (minimum 30,000+)
+    Description: Named for a Hindu sun deity, suryas swim freely in the sun’s corona.
+        Looking roughly like whales or orcas, suryas may reach lengths of ten meters
+        or more. They generate powerful magnetic fields that shield them from solar
+        radiation and heat, while allowing them to surf the solar wind and extract
+        ionized particles. Strong bones and connective tissues protect against the
+        crushing solar gravity. Beneath their thick hides are channels of liquid water
+        interleaved with layers of fat which serve to shield the organism from harmful
+        radiation. Engineered medichines repair tissue damaged by radiation and convert
+        hydrogen ions into water.A surya’s skin is an extraordinary organ, embedded
+        with chromatophores that allow them to transmit alternating patterns of light
+        and dark for communication. In addition, a lateral line runs down their sides,
+        allowing them to detect the long-period sound waves that reflect off the sun’s
+        lower atmosphere and resonate through the corona’s gas and plasma. Suryas
+        traveling through the transition zone between the corona and the chromosphere
+        use these vibrations to predict and avoid heavy solar weather.
+    Disadvantages: Large Target (+10 to hit in combat)
+    Durability: '100'
+    Implants: Basic Biomods, Basic Mesh Inserts, Chameleon Skin, Cortical Stack, Enhanced
+        Hearing, Enhanced Vision, Lateral Line, Medichines, Vacuum Sealing
+    Wound Threshold: '20'
+Theseus:
+    Advantages: +5 SOM, +5 WIL, +5 to one other aptitude of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '30'
+    Credit Cost: Expensive
+    Description: While there are no sanctioned explorations of Earth, a few daring
+        or greedy transhumans defy the laws to salvage there. Some scavengers and
+        explorers still scour the ruins of habitats that were destroyed during the
+        Fall. Others look for wealth and secrets in the quarantined zones on Luna
+        and Mars. Some simply seek out remaining TITAN machines to destroy, wherever
+        they may be found. The theseus is a popular biomorph for this type of work.
+        Its medichines and nanophages keep the morph protected from most attacks by
+        exsurgent nanotech, and the lack of a cyberbrain makes it less vulnerable
+        to mind hacking. An emergency farcaster allows the user to safely return from
+        situations where both their morph and their cortical stack might be destroyed
+        or corrupted.
+    Durability: '40'
+    Implants: Basic Biomods, Basic Mesh Inserts, Bioweave Armor (Light), Cortical
+        Stack, Direction Sense, Emergency Farcaster, Enhanced Vision, Low Pressure
+        Tolerance, Medichines, Nanophages, Oxygen Reserve, Radiation Sense, T-Ray
+        Emitter, Temperature Tolerance (Cold), Toxin Filters
+    Wound Threshold: '8'
+Venusian Glider:
+    Advantages: Limber (Level 1) trait, +5 REF, +5 SOM, +5 to two other aptitudes
+        of the player’s choice
+    Aptitude Maximum: '30'
+    CP Cost: '40'
+    Credit Cost: Expensive
+    Description: The glider is designed to survive for many hours in Venus’s unbreathable
+        atmosphere. Tall and thin, with long, strong limbs and a lightweight build,
+        this morph also features gliding membranes that allow it to soar through the
+        upper Venusian atmosphere. It can even gain altitude by riding thermals (which
+        it can see using its enhanced vision). Once Venusian terraforming efforts
+        are complete, an upgraded version of this morph will be able to breathe normally.
+    Durability: '30'
+    Implants: Basic Biomods, Basic Mesh Inserts, Cortical Stack, Enhanced Respiration,
+        Enhanced Vision, Gliding Membranes, Grip Pads, Prehensile Feet, Respirocytes
+    Wound Threshold: '6'
+Zen Pilot Hibernoid:
+    Advantages: +10 WIL
+    Aptitude Maximum: '25'
+    CP Cost: '30'
+    Credit Cost: Expensive (minimum 30,000)
+    Description: Zen pilots are a variant of the hibernoid biomorph. They are designed
+        to withstand high emotional distress from long periods of isolation in deep
+        space. With the endocrine control and drug gland implants, zen pilots can
+        survive being completely alone for years at a time.
+    Durability: '35'
+    Implants: Basic Biomods, Basic Mesh Inserts, Circadian Regulation, Cortical Stack,
+        Hibernation, Endocrine Control, Drug Glands (Comfurt and Juice)
+    Wound Threshold: '7'
